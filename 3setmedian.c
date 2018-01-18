@@ -24,7 +24,7 @@ array[j]=p;
 }
 }}
 if(n%2==0)
-retrun(array[n/2]+array[n/2-1]/2);
+return(array[n/2]+array[n/2-1]/2);
 else
-retrun array[n/2];
+return array[n/2];
 }
