@@ -13,6 +13,6 @@ if(min>array[i])
 min=array[i];
 i++;
 }
-pintf("min element is %d",min);
+printf("min element is %d",min);
 }
 
