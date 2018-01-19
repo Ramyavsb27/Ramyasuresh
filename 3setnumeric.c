@@ -20,5 +20,6 @@ if(r)
 cout<<"it is numeric"<<;
 else
 cout<<"no"<<;
+return 0;
 }
 
