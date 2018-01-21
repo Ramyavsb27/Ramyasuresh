@@ -21,6 +21,6 @@ uppal++;
 else
 num++;
 }
-printf("no.of numeric character are %d",num);
+cout<<"no.of numeric character are %d",num<<;
 }
 
