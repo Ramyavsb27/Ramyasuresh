@@ -12,7 +12,7 @@ else if(str[i]<='A' && str[i]>='Z')
 al++;
 else if(str[i]=='')
 sp++;
-esle
+else
 count=count++;
 }
 printf("no.of special characters are %d",count);
