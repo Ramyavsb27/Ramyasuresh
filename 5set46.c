@@ -1,7 +1,7 @@
 #include<stdio.h>
 void main()
 {
-int numbers[],n,i,max;
+int numbers[50],n,i,max;
 printf("enter the number %d",n);
 for(i=0;i<n;i++)
 scanf("%d",numbers[i]);
