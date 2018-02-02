@@ -1,17 +1,17 @@
 #include<stdio.h>
 void main()
 {
-  int max,x[10],i,n;
+  int lar,x[40],i,n;
   printf("enter the elements");
   scanf("%d",&n);
   for(i=0;i<n;i++)
     scanf("%d",&x[i]);
    for(i=0;i<n;i++)
-     max=x[0];
-  if(mxa<x[i])
+     lar=x[0];
+  if(lar<x[i])
   {
-    max=x[i];
+    lar=x[i];
   }
-  printf("%d",max);
+  printf("%d",lar);
 }
   
