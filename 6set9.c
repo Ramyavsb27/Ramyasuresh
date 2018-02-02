@@ -1,16 +1,16 @@
 #include<stdio.h>
 void main()
 {
-int array[10];
+int a[10];
 int i;
-int maximum;
+int max;
 for(i=0;i<10;i++)
-scanf("%d",&array[i]);
-maximum=array[0];
+scanf("%d",&a[i]);
+max=a[0];
 for(i=0;i<10;i++)
 {
-if(array[i]>maximum)
-maximum=array[i];
+if(a[i]>max)
+max=a[i];
 }
-printf("maximum among 10 numbers is %d",maximum);
+printf("maximum among 10 numbers is %d",max);
 }
