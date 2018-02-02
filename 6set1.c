@@ -1,8 +1,19 @@
 #include<stdio.h>
 void main()
 {
-int n;
+int n,temp,r=1;
 printf("enter the number");
 scanf("%d",&n);
-printf(numbers are %d",n\t);
+temp=n;
+while(temp)
+{
+    temp=temp/10;
+    r=r*10;
+}
+while(r>10)
+{
+    r=r/10;
+    printf("%d ",n/r);
+    n=n%r;
+}
 }
