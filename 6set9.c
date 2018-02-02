@@ -1,17 +1,17 @@
 #include<stdio.h>
 void main()
 {
-int a[30];
-int i,max,n;
-printf("enter the numbers");
-scanf("%d",&n);
-for(i=0;i<n;i++)
-scanf("%d",&a[i]);
-max=a[0];
-for(i=0;i<n;i++)
-{
-if(max<a[i])
-max=a[i];
+  int max,x[10],i,n;
+  printf("enter the elements");
+  scanf("%d",&n);
+  for(i=0;i<n;i++)
+    scanf("%d",&x[i]);
+   for(i=0;i<n;i++)
+     max=x[0];
+  if(mxa<x[i])
+  {
+    max=x[i];
+  }
+  printf("%d",max);
 }
-printf("maximum among 10 numbers is %d",max);
-}
+  
