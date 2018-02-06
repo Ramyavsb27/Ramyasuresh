@@ -3,15 +3,12 @@
 void main()
 {
     char s[30];
-    int i=0,j=0;
+    int i,n;
     printf("enter the string");
     gets(s);
-    while(s[i]!='\0')
-    {
-        if(s[i]==' ')
-        j=s[i+1];
-    }
-    for(j=0;j<s[i+1];j++)
+    printf("enter the number");
+    scanf("%d",&n);
+    for(i=0;i<=n;i++)
     {
         printf("%c",s[i]);
     }
