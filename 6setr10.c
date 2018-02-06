@@ -6,7 +6,7 @@ printf("enter the number");
 scanf("%d",&n);
 printf("%d",a);
 printf("%d",b);
-  copunt=2;
+  count=2;
   while(count<n)
   {
 c=a+b;
