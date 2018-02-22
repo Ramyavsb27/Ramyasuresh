@@ -7,7 +7,7 @@ void main()
     printf("numbers are");
     for(i=0;i<n;i++)
     scanf("%d",&a[i]);
-    k=2;
+    
      for(i=0;i<n;i++)
      {
          if(i==k)
