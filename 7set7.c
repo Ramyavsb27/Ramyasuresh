@@ -1,15 +1,15 @@
-#include<stdio.h>
-void main()
+#include <stdio.h>
+
+int main(void) 
 {
-    int n,r,c=1;
-    printf("enter the numbeer");
-    scanf("%d",&n);
-    printf("ente the exponenmt");
-    scanf("%d",&r);
-    while(r!=0)
-    {
-        c*=n;
-        --r;
-    }
-    printf("%d",c+1);
+	int num;
+	printf("enter the number:");
+	scanf("%d",&num);
+	num+=1;
+	while(num%10!=0)
+	{
+		num=num+1;
+	}
+	printf("\n%d",num);
+	return 0;
 }
